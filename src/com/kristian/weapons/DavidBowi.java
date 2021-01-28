@@ -1,16 +1,14 @@
 package com.kristian.weapons;
 
-import com.kristian.weapons.weaponTypes.WeaponMelee;
 import com.kristian.weapons.weaponTypes.WeaponRanged;
 
 public class DavidBowi extends WeaponRanged implements WeaponStats{
-
 
     String name;
     int level;
 
 
-    public DavidBowi(String name,int level){
+    public DavidBowi(String name, int level){
 
         this.name=name;
         this.level=level;
