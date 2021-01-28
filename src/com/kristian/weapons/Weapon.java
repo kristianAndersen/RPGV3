@@ -2,7 +2,6 @@ package com.kristian.weapons;
 
 public class Weapon implements WeaponStats{
 
-
     @Override
     public String getWeaponName() {
         return null;

@@ -56,6 +56,7 @@ public abstract class Hero{
 
 
     public Weapon getWeapon() {
+
         return weapon;
     }
 

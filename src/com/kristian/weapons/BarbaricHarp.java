@@ -1,15 +1,15 @@
 package com.kristian.weapons;
 
-import com.kristian.weapons.weaponTypes.WeaponMelee;
+import com.kristian.weapons.weaponTypes.WeaponMagic;
 
-public class ThunderBlade extends WeaponMelee implements WeaponStats{
+public class BarbaricHarp  extends WeaponMagic implements WeaponStats{
 
 
     String name;
     int level;
 
 
-    public ThunderBlade(String name,int level){
+    public BarbaricHarp(String name,int level){
 
         this.name=name;
         this.level=level;
@@ -46,5 +46,4 @@ public class ThunderBlade extends WeaponMelee implements WeaponStats{
 
         return super.damage+(this.level*super.scale);
     }
-
 }
