@@ -1,4 +1,5 @@
 package com.kristian.heros;
+import com.kristian.weapons.Weapon;
 
 public abstract class Hero{
 
@@ -59,6 +60,10 @@ public abstract class Hero{
 
     public void heroSays(String str){
         System.out.print("Grrr im a " +str+ " hero");
+    }
+
+    public void equipWepon(){
+//
     }
 
 }
