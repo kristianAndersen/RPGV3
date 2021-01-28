@@ -49,6 +49,19 @@ public abstract class Hero{
     int dexterity;
     int intelligence;
     double level;
+    Weapon weapon;
+
+
+
+    public Weapon getWeapon() {
+        return weapon;
+    }
+
+    public void setWeapon(Weapon weapon) {
+        this.weapon = weapon;
+    }
+
+
 
     public Hero(int health, int strength, int dexterity, int intelligence) {
         this.health = health;
@@ -62,8 +75,8 @@ public abstract class Hero{
         System.out.print("Grrr im a " +str+ " hero");
     }
 
-    public void equipWepon(){
-//
+    public void equipWeapon(Weapon weapon){
+        this.weapon = weapon;
     }
 
 }

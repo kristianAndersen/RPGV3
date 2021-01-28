@@ -1,8 +1,8 @@
 package com.kristian.weapons;
 
 public class Weapon {
-    //name
-    //type
-    //level
-    //damage
+    String weaponName;
+    String type;
+    int level;
+    int damage;
 }
