@@ -1,6 +1,7 @@
 package com.kristian.heros;
-import com.kristian.weapons.Weapon;
 
+import com.kristian.weapons.weaponTypes.WeaponMelee;
+import com.kristian.weapons.Weapon;
 public abstract class Hero{
 
 
@@ -41,6 +42,7 @@ public abstract class Hero{
     }
 
     public void setLevel(double level) {
+
         this.level = level;
     }
 
@@ -58,6 +60,7 @@ public abstract class Hero{
     }
 
     public void setWeapon(Weapon weapon) {
+
         this.weapon = weapon;
     }
 
@@ -75,7 +78,7 @@ public abstract class Hero{
         System.out.print("Grrr im a " +str+ " hero");
     }
 
-    public void equipWeapon(Weapon weapon){
+    public void equipWeapon(WeaponMelee weapon){
         this.weapon = weapon;
     }
 

@@ -1,6 +1,24 @@
 package com.kristian.weapons;
 
-public class Weapon implements WeaponStats{
+import com.kristian.weapons.weaponTypes.WeaponMelee;
+
+public class ThunderBlade extends WeaponMelee implements WeaponStats{
+
+    String type;
+    String name;
+    int level;
+    int damage;
+
+    public ThunderBlade(String type, String name,int level, int damage){
+
+        this.type=type;
+        this.name=name;
+        this.level=level;
+        this.damage=damage;
+
+    }
+
+
 
 
     @Override
@@ -27,4 +45,5 @@ public class Weapon implements WeaponStats{
     public int getTotalWeaponDamage() {
         return 0;
     }
+
 }
